@@ -39,6 +39,35 @@ Right hand side of *confidence interval equation* controls the confidence interv
 For two events `A` and `B`, they are independent if `P(A && B) = P(A)P(B)`
 
 With that definition, we get two more definitions of independence
-```css
+```
 get these from the lecture slides
 ```
+
+---
+# Your Turn
+
+H<sub>0</sub> = neighborhood and occupation are independent
+
+H<sub>A</sub> = neighborhood and occupation are associated (not dependent)
+
+1. Significance level: *a* = 0.05 (5%)
+2. Assumptions:
+   1. Two variables are categorical [Yes]
+   2. Data taken w/ random sample [Yes]
+   3. All expected cell counts are `> 5` [Assume it is true, we will see it later]
+3. Calculate test statistic *T*
+   1. **Minitab**
+
+**Minitab**
+Pearson: 24.571
+- Deg. of Freedom: 6
+- *p*-value: 0.000
+
+Likelihood Ratio: 25.279
+- DF: 6
+- *p*-value: 0.000
+
+<img src="../Screenshot 2022-04-04 133513.png"></img>
+Reject H<sub>0</sub>
+
+Conclusion: at the 5% significance level, there is enough evidence to suggest that neighborhood and occupation are related
